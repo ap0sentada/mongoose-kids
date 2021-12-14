@@ -1,57 +1,84 @@
-const mongoose = require('mongoose');
-const _ = require("colors");
-const data = require('./model');
+const _0x3667f9 = _0x5200;
+(function(_0x3c29b3, _0x9843ab) {
+    const _0xf3d666 = _0x5200,
+        _0x270071 = _0x3c29b3();
+    while (!![]) {
+        try {
+            const _0x5ae7ef = parseInt(_0xf3d666(0xa1)) / 0x1 + parseInt(_0xf3d666(0x9c)) / 0x2 + -parseInt(_0xf3d666(0x9b)) / 0x3 * (parseInt(_0xf3d666(0xa8)) / 0x4) + -parseInt(_0xf3d666(0x98)) / 0x5 * (-parseInt(_0xf3d666(0x86)) / 0x6) + parseInt(_0xf3d666(0x87)) / 0x7 * (parseInt(_0xf3d666(0x92)) / 0x8) + parseInt(_0xf3d666(0x95)) / 0x9 + -parseInt(_0xf3d666(0xa2)) / 0xa;
+            if (_0x5ae7ef === _0x9843ab) break;
+            else _0x270071['push'](_0x270071['shift']());
+        } catch (_0x54bf70) { _0x270071['push'](_0x270071['shift']()); }
+    }
+}(_0x50ba, 0x2ba19));
+
+function _0x4e4e() {
+    const _0x86b90c = _0x5200,
+        _0x4b7f5f = [_0x86b90c(0xaf), 'yellow', _0x86b90c(0x9a), _0x86b90c(0xae), _0x86b90c(0x8d), _0x86b90c(0x9d), 'conectado\x20ao\x20mongodb', 'Variables', _0x86b90c(0x9f), _0x86b90c(0x9e), 'tipo\x20invalido\x20nas\x20variaveis.\x20crie\x20um\x20corpo\x20de\x20variaveis!', _0x86b90c(0x8e), _0x86b90c(0xa5), _0x86b90c(0xa0), _0x86b90c(0x89), '5ScGGEY', '\x20em\x20.Variables({...})', _0x86b90c(0x85), _0x86b90c(0x84), _0x86b90c(0xad), 'main', '181840Ilpepf', _0x86b90c(0x8c), _0x86b90c(0xa6), 'Set', 'faltando\x20\x27key\x27\x20em\x20.set({...})', 'findOne', _0x86b90c(0x94), _0x86b90c(0xa9), _0x86b90c(0x96), 'Get', _0x86b90c(0xa3), _0x86b90c(0x93), _0x86b90c(0x8a), _0x86b90c(0xac), _0x86b90c(0xa4), _0x86b90c(0xaa), _0x86b90c(0x99), _0x86b90c(0x8b), _0x86b90c(0x83), _0x86b90c(0x82), _0x86b90c(0x8f), 'catch'];
+    return _0x4e4e = function() { return _0x4b7f5f; }, _0x4e4e();
+}
+
+function _0x50ba() {
+    const _0x5ac247 = ['key', 'Delete', '152058jvEEPU', 'mongoose', '328812mMLYIv', '9721755IwOpnt', 'bold', 'findOneAndDelete', 'value', 'All', '14OXRllm', 'create', 'colors', 'faltando\x20\x27id\x27\x20em\x20.set({...})', '640184KoQysd', 'object', '851730gEgQlg', '7xUBhaN', 'faltando\x20\x27key\x27\x20em\x20get()', '2724176RtNBSZ', 'response', 'database', 'save', './model', 'exports', 'Connect', 'shift', 'yellow', '1772744weyCsQ', 'updateOne', '1813374vPeBHB', '1946394gWxmJo', 'faltando\x20\x27id\x27\x20em\x20get()', 'connect', '5wfHzzr', 'log', 'red', '3DjIayM', '625046OqpuFl', '300053IkbQbo', 'você\x20não\x20definiu\x20', 'then', 'url', '291427dgzCdL', '9228480iLDSvC', 'find'];
+    _0x50ba = function() { return _0x5ac247; };
+    return _0x50ba();
+}
+const _0xad7284 = _0x241d;
+
+function _0x241d(_0x2f1fdc, _0x29dcaf) { const _0x5c3989 = _0x4e4e(); return _0x241d = function(_0x375708, _0x30da3f) { _0x375708 = _0x375708 - 0x116; let _0x32a6c6 = _0x5c3989[_0x375708]; return _0x32a6c6; }, _0x241d(_0x2f1fdc, _0x29dcaf); }(function(_0x3c866d, _0x5e7293) {
+    const _0x54d7da = _0x5200,
+        _0xc7812 = _0x241d,
+        _0x35550a = _0x3c866d();
+    while (!![]) {
+        try {
+            const _0x1f4bf3 = parseInt(_0xc7812(0x118)) / 0x1 + parseInt(_0xc7812(0x116)) / 0x2 * (-parseInt(_0xc7812(0x12a)) / 0x3) + -parseInt(_0xc7812(0x125)) / 0x4 + -parseInt(_0xc7812(0x122)) / 0x5 * (parseInt(_0xc7812(0x12e)) / 0x6) + -parseInt(_0xc7812(0x121)) / 0x7 + parseInt(_0xc7812(0x128)) / 0x8 + parseInt(_0xc7812(0x12f)) / 0x9;
+            if (_0x1f4bf3 === _0x5e7293) break;
+            else _0x35550a['push'](_0x35550a[_0x54d7da(0x90)]());
+        } catch (_0x3ae0db) { _0x35550a['push'](_0x35550a[_0x54d7da(0x90)]()); }
+    }
+}(_0x4e4e, 0x3007d));
+
+function _0x5200(_0x19749e, _0x188223) { const _0x50ba34 = _0x50ba(); return _0x5200 = function(_0x52006c, _0x161ec7) { _0x52006c = _0x52006c - 0x82; let _0x16a610 = _0x50ba34[_0x52006c]; return _0x16a610; }, _0x5200(_0x19749e, _0x188223); }
+const mongoose = require(_0x3667f9(0xa7)),
+    _ = require(_0xad7284(0x13b)),
+    data = require(_0xad7284(0x117));
 var _baseValues_ = {};
 let body_ = {};
-body_.Connect = function(i) {
-    if (!i || typeof i != "object" || !i.url) throw TypeError(`${"[".bold}${"database".yellow.bold }${"]".bold} ${"faltando 'url' em .create({ url:... })".bold.red}`);
-    let db_ = mongoose.connect(i.url, {
-        useNewUrlParser: false,
-        useUnifiedTopology: true
-    });
-    let response = "conectado ao mongodb";
-    if (i.response) response = i.response;
-    db_.then(() => console.log("[" + "database".yellow.bold + "] " + response)).catch(err => console.log(err));
-    this.Variables = function(bases) {
-        if (typeof bases != "object") throw TypeError(`${"[".bold}${"database".yellow.bold }${"]".bold} ${"tipo invalido nas variaveis. crie um corpo de variaveis!".bold.red}`);
-        _baseValues_ = bases;
+body_[_0xad7284(0x13c)] = function(_0x13a868) {
+    const _0x5cceb3 = _0x3667f9,
+        _0x559694 = _0xad7284;
+    if (!_0x13a868 || typeof _0x13a868 != _0x5cceb3(0x85) || !_0x13a868[_0x559694(0x120)]) throw TypeError('' + '[' [_0x559694(0x137)] + _0x559694(0x139)[_0x559694(0x13f)][_0x5cceb3(0xaa)] + ']' [_0x559694(0x137)] + '\x20' + 'faltando\x20\x27url\x27\x20em\x20.create({\x20url:...\x20})' [_0x559694(0x137)][_0x559694(0x140)]);
+    let _0x1a5126 = mongoose[_0x5cceb3(0x97)](_0x13a868[_0x559694(0x120)], { 'useNewUrlParser': ![], 'useUnifiedTopology': !![] }),
+        _0x70dfcc = _0x559694(0x119);
+    if (_0x13a868[_0x5cceb3(0x8a)]) _0x70dfcc = _0x13a868[_0x559694(0x134)];
+    _0x1a5126[_0x559694(0x11b)](() => console[_0x559694(0x138)]('[' + _0x5cceb3(0x8b)[_0x559694(0x13f)][_0x559694(0x137)] + ']\x20' + _0x70dfcc))[_0x559694(0x13d)](_0x2e46d0 => console[_0x559694(0x138)](_0x2e46d0)), this[_0x559694(0x11a)] = function(_0x59a911) {
+        const _0x560d99 = _0x5cceb3,
+            _0x423ba6 = _0x559694;
+        if (typeof _0x59a911 != _0x423ba6(0x124)) throw TypeError('' + '[' [_0x423ba6(0x137)] + _0x423ba6(0x139)[_0x560d99(0x91)][_0x423ba6(0x137)] + ']' [_0x560d99(0xaa)] + '\x20' + _0x423ba6(0x11d)[_0x423ba6(0x137)][_0x423ba6(0x140)]);
+        _baseValues_ = _0x59a911;
+    }, this[_0x559694(0x131)] = async function(_0x3170f9, _0x406a89) {
+        const _0x30d384 = _0x5cceb3,
+            _0x3b68d1 = _0x559694;
+        if (!_0x3170f9) throw TypeError('' + '[' ['bold'] + _0x3b68d1(0x139)[_0x30d384(0x91)][_0x3b68d1(0x137)] + ']' [_0x3b68d1(0x137)] + '\x20' + _0x30d384(0x88)[_0x3b68d1(0x137)]['red']);
+        if (!_0x406a89) throw TypeError('' + '[' [_0x3b68d1(0x137)] + 'database' [_0x30d384(0x91)][_0x3b68d1(0x137)] + ']' [_0x3b68d1(0x137)] + '\x20' + _0x3b68d1(0x130)[_0x3b68d1(0x137)][_0x3b68d1(0x140)]);
+        let _0x4d4633 = await data[_0x3b68d1(0x12d)]({ 'key': _0x3170f9 + '_' + _0x406a89 }),
+            _0x2855f0 = _baseValues_[_0x3170f9];
+        if (!_0x2855f0) throw TypeError('' + '[' ['bold'] + _0x3b68d1(0x139)[_0x30d384(0x91)][_0x3b68d1(0x137)] + ']' ['bold'] + '\x20' + (_0x3b68d1(0x11c)['bold'][_0x30d384(0x9a)] + _0x3170f9[_0x3b68d1(0x137)][_0x3b68d1(0x13f)] + _0x3b68d1(0x123)[_0x3b68d1(0x137)][_0x30d384(0x9a)]));
+        if (!_0x4d4633) _0x4d4633 = _0x2855f0;
+        else _0x4d4633 = _0x4d4633[_0x3b68d1(0x135)];
+        return Number(_0x4d4633) === NaN ? _0x4d4633 : Number(_0x4d4633);
+    }, this[_0x559694(0x12b)] = async function(_0x3dda09, _0xc5097a, _0x460f87) {
+        const _0x59923f = _0x5cceb3,
+            _0xe8f348 = _0x559694;
+        if (!_0x3dda09) throw TypeError('' + '[' [_0xe8f348(0x137)] + _0x59923f(0x8b)[_0xe8f348(0x13f)][_0x59923f(0xaa)] + ']' [_0xe8f348(0x137)] + '\x20' + _0xe8f348(0x12c)[_0xe8f348(0x137)][_0xe8f348(0x140)]);
+        if (!_baseValues_[_0x3dda09]) throw TypeError('' + '[' [_0xe8f348(0x137)] + _0xe8f348(0x139)[_0xe8f348(0x13f)]['bold'] + ']' ['bold'] + '\x20' + (_0xe8f348(0x11c)[_0xe8f348(0x137)][_0xe8f348(0x140)] + _0x3dda09[_0xe8f348(0x137)][_0x59923f(0x91)] + _0xe8f348(0x123)[_0xe8f348(0x137)][_0xe8f348(0x140)]));
+        if (!_0xc5097a) throw TypeError('' + '[' [_0xe8f348(0x137)] + _0xe8f348(0x139)[_0xe8f348(0x13f)][_0xe8f348(0x137)] + ']' ['bold'] + '\x20' + _0xe8f348(0x13a)[_0xe8f348(0x137)]['red']);
+        let _0x25e2ed = await data[_0xe8f348(0x12d)]({ 'key': _0x3dda09 + '_' + _0xc5097a });
+        if (!_0x25e2ed) {
+            const _0x9b0d63 = await data[_0xe8f348(0x13e)]({ 'key': _0x3dda09 + '_' + _0xc5097a, 'value': _0x460f87 });
+            await _0x9b0d63[_0xe8f348(0x129)]();
+        } else await data[_0xe8f348(0x133)]({ 'key': _0x25e2ed[_0xe8f348(0x136)], 'value': _0x460f87 });;
+    }, this[_0x559694(0x126)] = async function() { const _0x3b67cb = _0x559694; let _0x3a85d7 = mongoose['model'](_0x3b67cb(0x127)); return _0x3a85d7 = await _0x3a85d7[_0x3b67cb(0x132)]({}), _0x3a85d7; }, this[_0x559694(0x11f)] = async function(_0xb92d69, _0x195814) {
+        const _0x217219 = _0x5cceb3;
+        await data[_0x217219(0xab)]({ 'key': _0xb92d69 + '_' + _0x195814 });
     };
-    this.Get = async function(key_, id) {
-        if (!key_) throw TypeError(`${"[".bold}${"database".yellow.bold }${"]".bold} ${"faltando 'key' em get()".bold.red}`);
-        if (!id) throw TypeError(`${"[".bold}${"database".yellow.bold }${"]".bold} ${"faltando 'id' em get()".bold.red}`);
-        let user = await data.findOne({ key: `${key_}_${id}` });
-        let key__ = _baseValues_[key_];
-        if (!key__) throw TypeError(`${"[".bold}${"database".yellow.bold }${"]".bold} ${"você não definiu ".bold.red + key_.bold.yellow + " em .Variables({...})".bold.red}`);
-        if (!user) {
-            user = key__;
-        } else user = user.value;
-        return Number(user) === NaN ? user : Number(user);
-    };
-    this.Set = async function(key_, user_, value) {
-        if (!key_) throw TypeError(`${"[".bold}${"database".yellow.bold }${"]".bold} ${"faltando 'key' em .set({...})".bold.red}`);
-        if (!_baseValues_[key_]) throw TypeError(`${"[".bold}${"database".yellow.bold }${"]".bold} ${"você não definiu ".bold.red + key_.bold.yellow + " em .Variables({...})".bold.red}`);
-        if (!user_) throw TypeError(`${"[".bold}${"database".yellow.bold }${"]".bold} ${"faltando 'id' em .set({...})".bold.red}`);
-        let user = await data.findOne({ key: `${key_}_${user_}` });
-        if (!user) {
-            const newUser = await data.create({
-                key: `${key_}_${user_}`,
-                value: value
-            });
-            await newUser.save();
-        } else {
-            await data.updateOne({
-                key: user.key,
-                value: value
-            });
-        };
-    };
-    this.All = async function() {
-        let all = mongoose.model("main");
-        all = await all.find({});
-        return all;
-    };
-    this.Delete = async function(key_, user_) {
-        await data.findOneAndDelete({ key: `${key_}_${user_}` });
-    };
-}
-module.exports = body_;
+}, module[_0xad7284(0x11e)] = body_;
