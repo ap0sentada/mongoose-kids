@@ -33,7 +33,7 @@ data.Variables({
 //database conectada e estabelecida :D
 ```
 ## construtor / conector
-- Create({url:...,response:..}) - se conecta com a sua database mongoose
+- Connect({url:...,response:..}) - se conecta com a sua database mongoose
 - Variables({}) - define os valores bases
 
 ## metodos
