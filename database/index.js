@@ -11,7 +11,7 @@ body_.Connect = function(i) {
     });
     let response = "conectado ao mongodb";
     if (i.response) response = i.response;
-    db_.then(() => console.log(response)).catch(err => console.log(err));
+    db_.then(() => console.log("[" + "database".yellow.bold + "] " + response)).catch(err => console.log(err));
     this.Variables = function(bases) {
         if (typeof bases != "object") throw TypeError(`${"[".bold}${"error".red.bold}${"]".bold} ${"tipo invalido nas variaveis. crie um corpo de variaveis!".bold.red}`);
         _baseValues_ = bases;
