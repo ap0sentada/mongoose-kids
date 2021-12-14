@@ -19,15 +19,15 @@ npm i mongoose
 const db = require('./database/index');
 const data = new db.Connect({
     url: "seu link mongoose", //necessario
-	//response:"conetado ao mongo db" //- opcional (resposta dada ao se conectar com a database)
+    //response:"conetado ao mongo db" //- opcional (resposta dada ao se conectar com a database)
 })
 
 /*criando os valores bases, ou seja, caso o usuario não tenha nada armazenado, ao tentar puxar a data do usuario, receberá os valores providos aqui.*/
 data.Variables({
     money: 100,
-	power:900,
-	//...adicione mais ou exclua estes se necessario. qualquer tipo de armazenagem é possivel, incluindo texto e imagem.
-}); 
+    power: 900,
+    //...adicione mais ou exclua estes se necessario. qualquer tipo de armazenagem é possivel, incluindo texto e imagem.
+});
 //database conectada e estabelecida :D
 ```
 
@@ -53,9 +53,9 @@ const data = new db.Connect({
     url: "mongodb+srv://batata:sensei@batata.mongodb.net/batata"
 })
 data.Variables({
-    dindin: 100
-})
-//fim da configuração
+        dindin: 100
+    })
+    //fim da configuração
 
 client.on("ready", async() => {
     console.clear()
@@ -91,10 +91,10 @@ client.on("messageCreate", async message => {
         await data.Delete('dindin', message.author.id);
         message.channel.send(`${message.author.tag} teve seu money resetado`)
     }
-	    if (comando === "tudo") {
+    if (comando === "tudo") {
         let tudo = await data.All();
-		console.log("todas as datas armazenadas:");
-		console.log(tudo)
+        console.log("todas as datas armazenadas:");
+        console.log(tudo)
     }
 
 });
