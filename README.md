@@ -26,13 +26,13 @@ data.Variables({
 //database conectada e estabelecida :D
 ```
 
-##metodos
+## metodos
 - Get({...}) - obtem um valor
 - Set({...}) - define um valor
 - Delete({...}) - deleta um valor permanentemente da database
 - All() - obtem todos os valores na database
 
-###exemplo de index.js
+### exemplo de index.js
 ```js
 //index.js
 
