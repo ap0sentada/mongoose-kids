@@ -6,7 +6,12 @@ mongoose facilitado, todas as funções pré criadas (incluindo conexão).
 ## configuração / iniciação
 1. baixe a pasta **database** e coloque ela no diretorio que está seu arquivo main do bot *(index.js, bot.js etc...)*
 **exemplo:** `./`
-2. cole o seguinte codigo em seu arquivo main *(index.js, bot.js etc...)*:
+2. instale mongoose no seu projeto rodando o seguinte comando no console:
+```js
+npm i mongoose
+```
+
+3. cole o seguinte codigo em seu arquivo main *(index.js, bot.js etc...)*:
 
 ```js
 //isso pode ser colado logo à baixo de "const client =..."
