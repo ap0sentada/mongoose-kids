@@ -26,6 +26,8 @@ const data = new db.Connect({
 data.Variables({
     money: 100,
     power: 900,
+    nome: "batata",
+    "tipo_Json":":D"
     //...adicione mais ou exclua estes se necessario. qualquer tipo de armazenagem é possivel, incluindo texto e imagem.
 });
 //database conectada e estabelecida :D
